@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Letras blancas */
+    user-select: none; /* Evita selección accidental en táctil */
+}
+
+.container {
+    background-color: #222;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    width: 350px;
+    border: 1px solid #444;
+}
+
+h1 {
+    color: #ffd700; /* Dorado */
+    margin-bottom: 5px;
+}
+
+#instruccion {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ccc;
+}
+
+#inputCodigo {
+    width: 60px;
+    height: 60px;
+    font-size: 36px;
+    text-align: center;
+    margin: 15px 0;
+    border: 3px solid #666;
+    border-radius: 5px;
+    background-color: #000;
+    color: #0f0; /* Verde neón para el código */
+    caret-color: #0f0; /* Color del cursor */
+}
+
+button {
+    background-color: #ffd700;
+    color: #000;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: #ffe873;
+}
+
+.mensaje {
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 40px; /* Para mantener el espacio */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilos para los mensajes de respuesta */
+.success {
+    background-color: #004d00;
+    color: #90ee90;
+    border: 1px solid #0f0;
+}
+.error {
+    background-color: #4d0000;
+    color: #ff9999;
+    border: 1px solid #f00;
+}
+
+#progreso {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #444;
+}
+
+#codigoParcial {
+    font-family: 'Courier New', monospace;
+    font-size: 28px;
+    color: #fff;
+    letter-spacing: 8px; /* Espaciado entre los números ya introducidos */
+    display: block;
+    margin-top: 5px;
+}
