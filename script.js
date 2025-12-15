@@ -1,4 +1,4 @@
-const CODIGO_FINAL = "190723";
+const CODIGO_FINAL = "150823";
 // La secuencia que debe introducir el jugador
 const SECUENCIA_NUMEROS = ['1', '5', '0', '8', '2', '3'];
 
