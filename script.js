@@ -1,6 +1,6 @@
 const CODIGO_FINAL = "190723";
 // La secuencia que debe introducir el jugador
-const SECUENCIA_NUMEROS = ['1', '9', '0', '7', '2', '3'];
+const SECUENCIA_NUMEROS = ['1', '5', '0', '8', '2', '3'];
 
 let pasoActual = 0; // Rastrea el índice del número que esperamos (0 a 5)
 let codigoParcial = ""; // Almacena los números correctos ya introducidos
